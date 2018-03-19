@@ -18,5 +18,5 @@ and outputting geocoded results.
 To run the JupyterLab server, first `make build` to build the Docker image and
 then `make start` to start the server.
 
-See [work/Example.ipynb] to see how a large file of addresses can be geocoded
+See [work/Example.ipynb](work/Example.ipynb) to see how a large file of addresses can be geocoded
 using this approach.
