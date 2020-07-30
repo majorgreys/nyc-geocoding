@@ -11,6 +11,7 @@ RUN curl -LOk http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-da
 ENV LD_LIBRARY_PATH="/geosupport/version-18a_18.1/lib/"
 ENV GEOFILES="/geosupport/version-18a_18.1/fls/"
 RUN pip install python-geosupport
+RUN pip install simplejson
 
 # Create directories for notebooks and data
 USER $NB_UID
